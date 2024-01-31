@@ -1,0 +1,121 @@
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    background-image: url("images\DSC_6945-Edytuj-2.jpg");
+}
+
+.logo {
+    width: 135px;
+}
+
+.nav-bar {
+    background-color: #444;
+    overflow: hidden;
+
+}
+
+.nav-bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    padding: 30px;
+    font-size: 24px;
+}
+
+.video {
+    text-align: center; /* Centering the content inside */
+    padding: 20px;
+    margin: 20px ; /* Horizontally centering the container */
+}
+
+.video video {
+    width: 150%; /* Set the width of the video, adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 1000px; /* Maximum width, adjust as per your needs */
+}
+
+
+.body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+.contact-form {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+.input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+.button:hover {
+            background-color: #555;
+        }
+.contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
